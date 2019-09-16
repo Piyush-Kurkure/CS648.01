@@ -1,0 +1,89 @@
+body{
+    width: 960px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+ul:first-of-type li{
+    list-style-type:none;
+}
+ul:first-of-type{
+    padding-left: 0; 
+    margin: 0;
+}
+ul ul li{
+    padding-left: 40px; 
+    
+}
+#vprospect,#vretain,#vconvert{
+    font-weight: bold;
+}
+
+h2{
+    background-color: #DFE3E6;
+    border-color: #929CA4;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+a,h2{
+    color: #CC1C0D;
+}
+
+p > img {
+    float: left;
+    padding-top: 8px;
+    margin-right: 5px;
+}
+
+section:not(.pricing) > img{
+    border-radius: 45%;
+    border-color:red;
+    border-style: solid;
+    border-width: 1px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+section > p{
+    margin-top: 0px;
+}
+section>div:first-of-type>h3{
+    border-color: #CC1C0D;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+section>div:nth-of-type(2)>h3{
+    border-color: #37A4A4;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+section>div:nth-of-type(3)>h3{
+    border-color: #685288;
+    border-top-style: solid;
+    border-top-width: 10px;
+}
+section>div:nth-of-type(4)>h3{
+    border-color: #000000;
+    border-top-style: solid;
+    border-top-width: 10px;
+    margin-top: 33px;
+}
+div{
+    float: left;
+    margin: 2px;
+    border: solid 2px grey;
+    text-align: center;
+    border-radius: 10px;
+    width: 232px;
+    height: 300px;
+    padding-top: 20px;
+}
+
